@@ -1,7 +1,12 @@
-import './App.css';
+import { Fragment } from 'react';
+import Home from './pages/Home';
 
 function App() {
-  return <div>Hello</div>;
+  return (
+    <Fragment>
+      <Home />
+    </Fragment>
+  );
 }
 
 export default App;
